@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.formulario input {
+  flex: 1;
+  padding: 8px;
+}
+
+.erro {
+  width: 100%;
+  margin: 0;
+  color: red;
+}
+
+.resumo {
+  background: white;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: solid 1px #c9c8c8;
+  border-radius: 10px;
+}
+
+.resumo p {
+  margin: 4px 0;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+}
+
+.vazio {
+  text-align: center;
+  color: gray;
+}
+
+.ordem {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: solid 1px #c9c8c8;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordem-concluida {
+  background: #d9f2d9;
+}
+
+.ordem-concluida strong {
+  text-decoration: line-through;
+}
+
+.selo {
+  color: green;
+  font-size: 12px;
+}
+
+.acoes {
+  display: flex;
+  gap: 6px;
+}
+
+button {
+  width: 120px;
+  cursor: pointer;
+  background-color: rgba(47, 175, 130, 0.499);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgba(53, 194, 35, 0.662);
+  border: 1px solid #070707;
+}
